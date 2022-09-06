@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RULLETTE_VO
+namespace RULLETTE_DAC
 {
-    public class UserVO
+    class Program
     {
-        public int user_id { get; set; }
-        public string user_nm { get; set; }
+        static void Main(string[] args)
+        {
+        }
     }
 }

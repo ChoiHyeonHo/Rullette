@@ -25,7 +25,7 @@ namespace RULLETTE_DAC
 
                 foreach (XmlNode node in addNodes)
                 {
-                    if (node.Attributes["key"].InnerText == "NX_RL")
+                    if (node.Attributes["key"].InnerText == "NX_RULLETTE")
                     {
                         EncrytLibrary.AES aes = new EncrytLibrary.AES();
                         strConn = aes.AESDecrypt256((node.ChildNodes[0]).InnerText);

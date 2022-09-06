@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace RULLETTE_VO
 {
-    public class PaymentVO
+    class Program
     {
-        public int? id { get; set; }
-        public string user_nm { get; set; }
-        public int pay_money { get; set; }
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
